@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #00ffff;
+            margin:0px;
+        }
+        header{
+            background-color: rgb(237, 49, 49);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px;
+        }
+        nav{
+            background-color: rgb(0, 163, 200);
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+
+        }
+        nav >a{
+             text-decoration: none;
+             color: white;
+             font-weight: bold;
+             margin-right: 30px;
+            }
+        nav > a:hover{
+             text-decoration: underline;
+            }
+        main{
+            background-color: rgb(237, 49, 49);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 20px 20px;
+        }
+        article{ 
+            background-color: #00ffff;
+        }
+        article > aside{
+            background-color: rgba(94, 99, 247, 0.639);
+        }
+        footer {
+            background-color: rgb(49, 47, 47);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+          <h1>Meu Site</h1>
+          <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+          </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+               <p>Esportes e eletronicos</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores tempora veritatis debitis magnam repellendus ducimus impedit, error, recusandae sed quaerat commodi illum, adipisci laboriosam temporibus dolor expedita numquam at Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, reiciendis excepturi earum tempora atque odit provident a, facere minus culpa ea beatae eius maxime velit veniam eligendi, rem corrupti soluta.</p>
+                <aside>
+                    <p>Artigo escrito por Vinicius Rodrigues</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+            <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>
