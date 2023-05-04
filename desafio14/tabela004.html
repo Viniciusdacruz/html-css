@@ -9,8 +9,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        table {
-        }
+
         td{
             border: 1px solid black;
             padding: 10px;
@@ -21,25 +20,63 @@
 <body>
     <h1>Tabela 4</h1>
 <table>
-      <tr>
-         <td>Áreas</td>
-         <td>Disciplinas</td>
-         <td>Notas</td>
-         <td>Médias</td>
-      </tr>
-      <tr>
-         <td rowspan="4">Exatas</td>
-         <td>Matemática</td>
-     </tr>
-     <tr>
-        <td>Fisica</td>
-     </tr>
-     <tr>
-        <td>Quimica </td>
-     </tr>
-     <tr> 
-        <td>Biologia</td>
-     </tr>
+    </thead>
+<tr>
+    <td rowspan="2">Áreas</td>
+    <td rowspan="2">Disciplinas</td>
+    <td colspan="2">Notas</td>
+    <td rowspan="2">Médias</td>
+</tr>
+<tr>
+    <td>Nota1</td>
+    <td>Nota2</td>
+    
+    
+</tr>
+<tr>
+    <td rowspan="4">Exatas</td>
+    <td>Matemática</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>0.0</td>
+</tr>
+    <td>Fisica</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <tr>
+    <td>Quimica</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Bioloia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td colspan="4">Médias de Exatas</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Humanas</td>
+        <td>História</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td>Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+    </tr>
+    <tr>
+        <td colspan="4">Média de Humanas</td>
+        <td>0.0</td>
+    </tr>
 </table>
 </body>
 </html>
